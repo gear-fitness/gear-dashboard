@@ -8,8 +8,7 @@ interface TimeLeft {
 }
 
 // TODO: Update this to your actual presentation date
-const TARGET_DATE = new Date("2026-05-01T14:00:00");
-
+const TARGET_DATE = new Date("2026-05-02T13:40:00");
 function getTimeLeft(): TimeLeft {
   const diff = TARGET_DATE.getTime() - Date.now();
 
